@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav.navbar {
+    background-color: #7073ec !important;
+}
+
+img.logo {
+    width: 2em;
+    height: 2em;
+    cursor: pointer;
+}
+
+img.pizza {
+    width: 20em;
+    height: 20em;
+}
+
+button.search {
+    background-color: white;
+    color: #7073ec;
+    padding: 0.5em 2em;
+    border: none;
+    border-radius: 2em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.search:hover {
+    box-shadow: 2px 2px 4px 2px lightgray;
+}
+
+.search:active {
+    box-shadow: none;
+}
+
+header {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+}
+
+h1.header {
+    color: #7073ec;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+p.description {
+    width: 70%;
+    font-style: italic;
+}
+
+main {
+    padding: 1em;
+}
+
+div.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5em;
+}
+
+div.pizza-box {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+div.right-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+p.pizza-name {
+    font-size: 2em;
+    color: #7073ec;
+}
+
+p.pizza-description {
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+p.pizza-price {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #7073ec;
+}
+
+button.pizza-button {
+    width: 50%;
+    padding: 1em 2em;
+    font-weight: bold;
+    background-color: #7073ec;
+    border: 1px solid #7073ec;
+    color: white;
+    cursor: pointer;
+}
+
+.pizza-button:hover {
+    background-color: white;
+    color: #7073ec;
+}
