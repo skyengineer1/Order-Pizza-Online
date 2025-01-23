@@ -84,11 +84,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-## 🔗 Links
-
-- [Project Demo](#) *(Add the deployed link here)*
-- [GitHub Repository](#) *(Add the repository link here)*
-
----
-
 Happy Coding! 🚀
